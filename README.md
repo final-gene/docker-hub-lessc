@@ -1,5 +1,5 @@
 # LESS Compiler
-[![CircleCI](https://circleci.com/gh/final-gene/docker-hub-lessc/tree/master.svg?style=svg)](https://circleci.com/gh/final-gene/docker-hub-lessc/tree/master) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/4cf4be3e6d6540c0a1c0d72a239ae01b)](https://www.codacy.com/app/final-gene/docker-hub-lessc?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=final-gene/docker-hub-lessc&amp;utm_campaign=Badge_Grade)
+[![CircleCI](https://circleci.com/gh/final-gene/docker-hub-lessc/tree/master.svg?style=svg)](https://circleci.com/gh/final-gene/docker-hub-lessc/tree/master) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/fd9d0cf6efe141138a5fb052c9484bce)](https://www.codacy.com/app/final-gene/docker-hub-lessc?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=final-gene/docker-hub-lessc&amp;utm_campaign=Badge_Grade)
 
 This is a image to run the [LESS compiler](http://lesscss.org/) including the `clean-css` plugin.
 

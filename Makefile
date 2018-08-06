@@ -1,6 +1,6 @@
 NAME = lessc
 
-VERSIONS = 2.7 3.0 3.5 3.6 3.7
+VERSIONS = 2.7 3.0 3.5 3.6 3.7 3.8
 
 .PHONY: build
 build: ${VERSIONS}

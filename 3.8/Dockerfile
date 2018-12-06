@@ -6,10 +6,10 @@ ENV LESSC_VERSION 3.8.0
 ENV CLEAN_CSS_VERSION 1.5.1
 
 RUN apk add --no-cache --virtual=.build-deps \
-        npm=8.11.3-r1
+        npm=8.14.0-r0
 
 RUN apk add --no-cache --virtual=.persistent \
-        nodejs=8.11.3-r1 \
+        nodejs=8.14.0-r0 \
     && npm install -g \
         less@"${LESSC_VERSION}" \
         less-plugin-clean-css@"${CLEAN_CSS_VERSION}"

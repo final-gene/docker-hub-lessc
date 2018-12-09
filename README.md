@@ -4,7 +4,8 @@
 This is a image to run the [LESS compiler](http://lesscss.org/) including the `clean-css` plugin.
 
 ## Supported tags and respective Dockerfile links
-* `3.8`, `latest` [(3.8/Dockerfile)](https://github.com/finalgene/docker-hub-lessc/blob/master/3.8/Dockerfile)
+* `3.9`, `latest` [(3.9/Dockerfile)](https://github.com/finalgene/docker-hub-lessc/blob/master/3.9/Dockerfile)
+* `3.8` [(3.8/Dockerfile)](https://github.com/finalgene/docker-hub-lessc/blob/master/3.8/Dockerfile)
 * `3.7` [(3.7/Dockerfile)](https://github.com/finalgene/docker-hub-lessc/blob/master/3.7/Dockerfile)
 * `3.6` [(3.6/Dockerfile)](https://github.com/finalgene/docker-hub-lessc/blob/master/3.6/Dockerfile)
 * `3.5` [(3.5/Dockerfile)](https://github.com/finalgene/docker-hub-lessc/blob/master/3.5/Dockerfile)

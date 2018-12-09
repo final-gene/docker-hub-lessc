@@ -79,6 +79,15 @@ jobs:
       VERSION: "3.7"
     <<: *build_template
 
+  validate-3.9:
+    environment:
+      VERSION: "3.9"
+    <<: *validate_template
+  build-3.9:
+    environment:
+      VERSION: "3.9"
+    <<: *build_template
+
   validate-3.8:
     environment:
       VERSION: "3.8"
@@ -121,3 +130,8 @@ workflows:
       - build-3.8:
           requires:
             - validate-3.8
+
+      - validate-3.9
+      - build-3.9:
+          requires:
+            - validate-3.9

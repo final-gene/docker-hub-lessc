@@ -1,29 +1,24 @@
 NAME = lessc
 
-VERSIONS = 2.7 3.0 3.5 3.6 3.7 3.8 3.9
-
-.PHONY: build
-build: ${VERSIONS}
-
-.PHONY: ${VERSIONS}
-${VERSIONS}:
-	@echo "Build ${@}"
-
+.PHONY: lint
+lint:
 	@docker run \
 		--rm \
 		--volume "$(shell pwd)":/app \
 		finalgene/hadolint \
-		${@}/Dockerfile
+		Dockerfile
 
+.PHONY: build
+build: lint
 	@docker build \
 		--no-cache \
-		--tag finalgene/${NAME}:${@}-dev \
-		${@}/
+		--tag finalgene/${NAME}:dev \
+		.
 
-	@docker images finalgene/${NAME}:${@}-dev
+	@docker images finalgene/${NAME}:dev
 
 .PHONY: clean
 clean:
 	-@docker rmi \
 		--force \
-		$(shell docker images finalgene/${NAME}:*-dev -q)
+		$(shell docker images finalgene/${NAME}:dev -q)

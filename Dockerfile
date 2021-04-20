@@ -1,8 +1,8 @@
-FROM alpine:3.10
+FROM alpine:3.13
 
 LABEL maintainer="frank.giesecke@final-gene.de"
 
-ENV LESSC_VERSION 3.10.3
+ENV LESSC_VERSION 4.1.1
 ENV CLEAN_CSS_VERSION 1.5.1
 
 RUN apk add --no-cache --virtual=.build-deps \

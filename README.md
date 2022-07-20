@@ -1,6 +1,8 @@
 # LESS Compiler
 
-This is a image to run the [LESS compiler](http://lesscss.org/) including the `clean-css` plugin.
+[![Docker build and publish](https://github.com/final-gene/docker-hub-lessc/actions/workflows/publish.yml/badge.svg)](https://github.com/final-gene/docker-hub-lessc/actions/workflows/publish.yml)
+
+This is an image to run the [LESS compiler](http://lesscss.org/) including the `clean-css` plugin.
 
 ## How to use this image
 Run the `lessc` image:

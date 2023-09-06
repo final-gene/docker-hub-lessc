@@ -21,10 +21,10 @@ For further information take a look at the [lessc starting guide](http://lesscss
 [the Docker Community Forums](https://forums.docker.com), [the Docker Community Slack](https://blog.docker.com/2016/11/introducing-docker-community-directory-docker-community-slack), or [Stack Overflow](https://stackoverflow.com/search?tab=newest&q=docker)
 
 * **Where to file issues:**
-https://github.com/finalgene/docker-hub-lessc/issues
+https://github.com/final-gene/docker-hub-lessc/issues
 
 * **Maintained by:**
-[The final gene Team](https://github.com/finalgene)
+[The final gene Team](https://github.com/final-gene)
 
 * **Source of this description:**
-[Repository README.md](https://github.com/finalgene/docker-hub-lessc/blob/master/README.md)
+[Repository README.md](https://github.com/final-gene/docker-hub-lessc/blob/master/README.md)
